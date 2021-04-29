@@ -20,6 +20,27 @@ a:active{
     text-decoration: none;
 }
 
+/*carousel*/
+.carousel-item{
+    height:100vh;
+}
+
+.carousel-indicators{
+    bottom: -.3rem;
+}
+
+.carousel-indicators li{
+    width: .2rem;
+    height: .2rem;
+    border-radius: 100%;
+    background-color: transparent!important;
+    border: .1rem solid #219653;
+}
+
+.carousel-indicators .active{
+    background-color: #219653!important;
+}
+
 /*shapes*/
 .shapes{
     padding-top: 4rem;
@@ -166,7 +187,8 @@ a:active{
 }
 
 .hashtags{
-    color: #786ADE;
+    color: #240448;
+    opacity: 60%;
 }
 
 .end-text h2{
