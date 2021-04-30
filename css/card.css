@@ -25,6 +25,10 @@
     border: .1rem solid #114B5F;
 }
 
+.location-card{
+    height: 5rem;
+}
+
 
 /*modal*/
 .modal-content{
