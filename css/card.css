@@ -3,21 +3,19 @@
 .card{
     font-family: 'Poppins', sans-serif;
     width: 6.5rem;
-    height: 6.5rem;
-    border-radius: 30%;
-    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.38), 0px 2px 3px 0px rgba(0,0,0,0.12) inset;
-    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.38), 0px 2px 3px 0px rgba(0,0,0,0.12) inset;
-    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.38), 0px 2px 3px 0px rgba(0,0,0,0.12) inset;
-    padding: auto .5rem;
+    height: 6rem;
+    border-radius: 1.5rem;
 }
 
 .card-title{
     color: #114B5F;
+    font-size: .9rem;
 }
 
 .card-subtitle{
+    font-size: .8rem;
     color: #114B5F;
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .card-avatar{
@@ -27,18 +25,18 @@
     border: .1rem solid #114B5F;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/*modal*/
 .modal-content{
     margin: auto;
-    width: 18rem;
-    height: 18rem;
+    width: 19rem;
+    height: 19rem;
     border-radius: 3rem;
 }
 
 body.modal-open .fader{
-	filter: blur(5px);
-	-webkit-filter: blur(5px);
+	filter: blur(.2rem);
+	-webkit-filter: blur(.2rem);
 }
 
 .modal-avatar{
@@ -84,7 +82,7 @@ body.modal-open .fader{
 .modal-body p{
     margin-left: .3rem;
     color: #114B5F;
-    opacity: 50%;
+    opacity: 85%;
 }
 
 .modal-btn{
