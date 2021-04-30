@@ -2,18 +2,16 @@
 
 .card{
     font-family: 'Poppins', sans-serif;
-    width: 6.5rem;
-    height: 6rem;
     border-radius: 1.5rem;
 }
 
 .card-title{
     color: #114B5F;
-    font-size: .9rem;
+    font-size: 3vw;
 }
 
 .card-subtitle{
-    font-size: .8rem;
+    font-size: 2.5vw;
     color: #114B5F;
     opacity: 80%;
 }
@@ -21,12 +19,16 @@
 .card-avatar{
     border-radius: 50%;
     height: auto;
-    width: 2rem;
-    border: .1rem solid #114B5F;
+    width: 6vw;
+    border: .2vw solid #114B5F;
 }
 
 .location-card{
     height: 5rem;
+}
+
+.location-card .card-body h6{
+    font-size: 1.7vh
 }
 
 

@@ -292,7 +292,7 @@ body{
 
 .line{
     height: 0.05rem;
-    width: 5.6rem;
+    width: 26vw;
     background-color: #114B5F;
     opacity: 50%;
 }
@@ -300,5 +300,11 @@ body{
 .small-text{
     color: #114B5f;
     opacity: 50%;
-    font-size: .9rem;
+    font-size: 3vw;
+}
+
+@media  screen and (min-width: 375px) {
+    .small-text{
+        font-size: .9rem;
+    }
 }
