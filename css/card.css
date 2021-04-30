@@ -23,12 +23,85 @@
     border: .2vw solid #114B5F;
 }
 
+/*loaction card*/
 .location-card{
     height: 5rem;
 }
 
 .location-card .card-body h6{
     font-size: 1.7vh
+}
+
+/*resources card*/
+.resource-card{
+    width: 80vw;
+    height: 10vh;
+    border-radius: 30rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.resource-img{
+    width: 12vw;
+}
+
+.resource-card-title{
+    color: #114B5F;
+    font-size: 3.5vw;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.update{
+    color: #114B5F;
+    font-size: 2.5vw;
+}
+
+.number{
+    font-size: 2.7vw;
+    font-weight: bold;
+    color: #114B5F;
+}
+
+.location{
+    font-size: 2.5vw;
+    color: #114B5F;
+}
+.location img{
+    margin-left: 1vw;
+    width: 2vw;
+}
+
+@media only screen and (min-width: 576px){
+    .resource-card{
+        padding: 0 0.7rem;
+        width: 35rem;
+        height: 6rem;
+    }
+
+    .resource-img{
+        width: 5rem;
+    }
+    
+    .resource-card-title{
+        font-size: 1.8rem;
+    }
+    
+    .update{
+        font-size: 1rem;
+    }
+    
+    .number{
+        font-size: 1.3rem;
+    }
+    
+    .location{
+        font-size: 1rem;
+    }
+    .location img{
+        margin-left: 1rem;
+        width: .9rem;
+    }
 }
 
 
